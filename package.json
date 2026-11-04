@@ -19,7 +19,9 @@
   "scripts": {
   "start": "react-scripts --openssl-legacy-provider start",
   "build": "react-scripts --openssl-legacy-provider build",
+  "build:report": "node scripts/run-with-report.js build",
   "test": "react-scripts test",
+  "test:report": "node scripts/run-with-report.js test",
   "eject": "react-scripts eject"
 },
   "eslintConfig": {
