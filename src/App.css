@@ -598,44 +598,6 @@ div#txt {
   align-items: center;
   justify-content: center;
 }
-.search-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 2;
-}
-.search-box .img-box {
-  background: rgb(255, 255, 255, 0.2);
-  border-radius: 50%;
-  height: 32px;
-  width: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px;
-}
-.search-box img {
-  width: 60%;
-  cursor: pointer;
-}
-.search-box .search-bar {
-  border: none;
-  padding: 10px 11px;
-  background: transparent;
-  color: white;
-  border-bottom: 1px solid;
-  font-size: 16px;
-}
-.search-box .search-bar::placeholder {
-  color: white;
-}
-.search-bar:focus {
-  outline: none;
-  border-bottom: 1px solid gray;
-  transition: all 1s ease-in-out;
-}
 .mb-icon {
   height: 100%;
   position: absolute;
